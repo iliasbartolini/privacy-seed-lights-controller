@@ -1,6 +1,6 @@
 # Privacy Seed - Lights controller
 
-LED controller based on Arduino Nano, FastLED and DotStar  
+LED controller based on Arduino Nano, FastLED and DotStar
 
 ## Wiring:
 Supports 2 separate LED strips.
