@@ -103,8 +103,8 @@ void sensorCoveredLightsPattern(){
 void addGlitter( fract8 chanceOfGlitter)
 {
  if( random8() < chanceOfGlitter) {
-   tree_base_led_strip[random16(TREE_BASE_NUM_PIXELS)] += CRGB::White;
-   tree_top_led_strip[random(TREE_TOP_NUM_PIXELS)] = CRGB::White;
+   tree_base_led_strip[random8(TREE_BASE_NUM_PIXELS)] = CRGB::White;
+   tree_top_led_strip[random8(TREE_TOP_NUM_PIXELS)] = CRGB::White;
  }
 }
 uint8_t gHue = 0;
